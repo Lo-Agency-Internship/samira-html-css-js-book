@@ -1,7 +1,4 @@
 .sidenav {
-    height: 100%;
-    width: 30%;
-    position: fixed;
     top: 0;
     left: 0;
     background-color: rgb(88, 51, 86);
@@ -13,8 +10,6 @@
 
 .ul-1 li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
     font-size: x-large ;
     margin-left: 5px ;
     list-style: none;
@@ -37,19 +32,28 @@ list-style: none;
 .ol-1 li a{color: rgb(218, 188, 215);
     text-decoration: none;
 }
-
+.ol-1 li a:hover{
+    color: rgb(20, 24, 22);
+    background-color: rgb(139, 150, 126);
+}
 .describe{
     background-color: rgb(215, 204, 226);
-height: 100%;
-width: 70%;
-margin-left: 30%;
+padding-left: 10px;
 padding: 5px;
-
+display: block;
 }
 :target  {
    
     background-color: rgb(236, 240, 182);
     box-shadow: 10px 10px 5px 12px lightblue;}
 body{
-background-color:  rgb(215, 204, 226);   
+background-color:  rgb(244, 237, 250);   
 }
+.origin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    }
